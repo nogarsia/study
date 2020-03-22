@@ -1,1 +1,9 @@
-name: 이인영
+spring:
+#  jackson:
+#    serialization.WRITE_DATES_AS_TIMESTAMPS: false
+#    property-naming-strategy: SNAKE_CASE
+  jpa:
+    database: H2
+    show-sql: true
+    hibernate:
+      ddl-auto: create
