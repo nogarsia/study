@@ -1,2 +1,3 @@
-# study
-repository for study
+# Project Settings1 
+
+- [ ] Spring Boot Application 
