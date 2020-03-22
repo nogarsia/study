@@ -54,7 +54,6 @@ public class HealthCheckControllerSpec {
     public void test1() throws Exception {
         // when
         when(healthService.health()).thenReturn("alijalsijefliajsfe");
-
         System.out.println(healthService);
 
         MockHttpServletRequestBuilder request = MockMvcRequestBuilders.get("/api/ping");
